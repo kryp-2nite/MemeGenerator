@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lato:wght@400;700&family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+.meme__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.meme__form{
+    margin: 16px 0;
+}
+.form__text{
+    width: 175px;
+    height: 35px;
+    margin: 0 16px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.button{
+    width: 175px;
+    height: 35px;
+    background-color: rgba(7,179,228);
+    color: white;
+    font-size: 25px;
+}
+
+.meme{
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    text-align: center;
+    font-family: 'Gravitas One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 0 black,
+                 2px 2px 0 black;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 8px;
+    left: 20%;
+    text-align: center;
+    font-family: 'Gravitas One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 0 black,
+                 2px 2px 0 black;
+}
